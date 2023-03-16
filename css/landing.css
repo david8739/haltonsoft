@@ -523,10 +523,24 @@ body {
 #main-text{
     margin: 25px 0;
 }
-.sicon{
-    width: 50px;
-    
+
+.social-links {
+    margin: 10px 10px;
 }
+  
+  .social-links a {
+    margin: 0 10px;
+  }
+  
+  .social-links img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .social-links img:hover {
+    opacity: 0.9; /* Reduce opacity to 80% when hovered */
+    transform: scale(1.3); /* Scale up the icon by 10% when hovered */
+  }
 
 .icon{
     width: 12px;
