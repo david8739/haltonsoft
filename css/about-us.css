@@ -361,7 +361,7 @@ main {
 .contact-today-wrapper a:last-child {
     max-width: 300px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .btn {
@@ -404,6 +404,23 @@ main {
     margin-top: 20px;
 }
 
+.social-links {
+    margin: 10px 10px;
+}
+  
+  .social-links a {
+    margin: 0 10px;
+  }
+  
+  .social-links img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .social-links img:hover {
+    opacity: 0.9; /* Reduce opacity to 80% when hovered */
+    transform: scale(1.3); /* Scale up the icon by 10% when hovered */
+  }
 
 /* added here */
 
