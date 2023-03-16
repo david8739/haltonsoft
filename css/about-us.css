@@ -354,7 +354,7 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 75px 0;
+    margin: 20px 0;
     color: white;
 }
 
